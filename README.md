@@ -1,5 +1,4 @@
 # Heatmaps
-A guide to heatmaps &amp; correlations
 
 The heatmap script utilizes 'pairwise complete' observations, meaning only individuals with missing data for the 2 variables being compared will be removed. This script includes the option of saving correlation coefficients, p-values, and the number of observations included for each pairwise correlation. These files will save in the working directory set at the top of the script, and are named 'heatmap_coefficients.csv', 'heatmap_pvalues.csv', 'heatmap_nvalues.csv', respectively.
 
@@ -9,4 +8,4 @@ To calculate correlations amongst variables, data are required to be in the wide
 
 ### Packages:
 
-This script also uses the [Hmisc](https://github.com/harrelfe/Hmisc) and [reshape2](https://github.com/hadley/reshape) packages.
+This script uses the [ggplot2](https://github.com/tidyverse/ggplot2), [Hmisc](https://github.com/harrelfe/Hmisc) and [reshape2](https://github.com/hadley/reshape) packages.
