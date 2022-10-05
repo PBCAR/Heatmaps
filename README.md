@@ -5,7 +5,7 @@ The heatmap script utilizes 'pairwise complete' observations, meaning only indiv
 
 ![](examples/heatmap_example.png)
 
-To calculate correlations amongst variables, data are required to be in the wide format - subsequently being changed into long format for data visualization (which is done efficiently without user input in the script). The heatmap script does not use the mock data in its example (as mock data tend not to be correlated to one another). However, the example is of a data set in wide format, with the variable names "Variable_1" through to "Variable_5". These are placed in a different order (as seen in the plot above) so that they read from left to right and bottom to top of the heatmap. They are subsequently renamed (abbreviated) for the final heatmap.
+To calculate correlations amongst variables, data are required to be in the wide format - subsequently being changed into long format for data visualization (which is done efficiently without user input in the script). The example is of a data set in wide format, with the variable names "Variable_1" through to "Variable_5". These are placed in a different order (as seen in the plot above) so that they read from left to right and bottom to top of the heatmap. They are subsequently renamed (abbreviated) for the final heatmap.
 
 ### Packages:
 
